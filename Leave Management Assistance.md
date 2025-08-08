@@ -1,8 +1,9 @@
-3 tools 
-A. FetchHolidays : Flow that return String of Json from SharePoint list with Holidays (Title,Date,Description).
-B. Leave Balance : Flow Return Leave Balance (Number) from SharePonit list.
-C. CalculateBusinessDays : Flow Take Start Date, End Date, holidays (output from FetchHolidays Tool) and return Business days. Exclude Holidays in between and Weekends. Retrun Number of Leave (Number).
-D. Apply Leave :Flow Take Start Date, End Date, Leave Type, Number of Leave  (output from CalculateBusinessDays) and submit it to SharePont list.
+**3 tools **
+
+A. **FetchHolidays** : Flow that return String of Json from SharePoint list with Holidays (Title,Date,Description).
+B. **Leave Balance** : Flow Return Leave Balance (Number) from SharePonit list.
+C. **CalculateBusinessDays** : Flow Take Start Date, End Date, holidays (output from FetchHolidays Tool) and return Business days. Exclude Holidays in between and Weekends. Retrun Number of Leave (Number).
+D. **Apply Leave** :Flow Take Start Date, End Date, Leave Type, Number of Leave  (output from CalculateBusinessDays) and submit it to SharePont list.
 
 **Leave application Use case**
 - User can request the balance status
@@ -21,7 +22,7 @@ D. Apply Leave :Flow Take Start Date, End Date, Leave Type, Number of Leave  (ou
 - it work even for same for 2nd time.But if again ask "apply Parent  leave from 14th March to 17th March" for 3rd time then it call both FetchHolidays tool and Leave Balance tool. Which actully shuould reuse prevously called variable.
 
 
-**Instruction**
+**Instruction to Agent**
 
 
 ## 🗓️ Leave Management Instructions
