@@ -19,8 +19,9 @@ D. **Apply Leave** :Flow Take Start Date, End Date, Leave Type, Number of Leave 
 **Issue Facing**
 - it work for first time. i.e. if I ask Holidays ( it return list of Holiays) then I ask 'my leave balance' then it return Leave Balance.
 - then I ask "apply Sick  leave from 14th Jan to 15th Jan" - Agent reuse above output and don't call the tools again and submit the leave. Which work fine.
-- it work even for same for 2nd time.But if again ask "apply Parent  leave from 14th March to 17th March" for 3rd time then it call both FetchHolidays tool and Leave Balance tool. Which actully shuould reuse prevously called variable.
+- it work even for same for 2nd time (Sometime sotime not).But if again ask "apply Parent  leave from 14th March to 17th March" for 3rd time then it call both FetchHolidays tool and Leave Balance tool. Which actully shuould reuse prevously called variable.
 
+<img width="1776" height="817" alt="image" src="https://github.com/user-attachments/assets/179dc3f1-0659-4242-bf92-0c5321f70d66" />
 
 **Instruction to Agent**
 
